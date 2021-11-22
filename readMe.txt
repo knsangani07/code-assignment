@@ -2,10 +2,13 @@ Project Setup
 
 Import Maven Application in your project
 
-Open application.properties and define 
-	Product
-	Offer
-	Tax
+Open application.properties and define
+ 
+	epam.products=[{"name":"Apple","price":0.60},{"name":"Orange","price":0.25},{"name":"Mango","price":1.99}]
+
+	epam.offers=[{"productName":"Apple","type":"BUY_ONE_GET_ONE_FREE","status":true,"buyQuantity":1,"freeQuantity":1},{"productName":"Orange","type":"BUY_TWO_GET_ONE_FREE","status":true,"buyQuantity":2,"freeQuantity":1}]
+
+	epam.tax=7.5
 	
 Start Application using below class
 	com.epam >> StartEpamApplication.java
